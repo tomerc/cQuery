@@ -19,6 +19,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <scala.version>2.11.8</scala.version>
         <spring.version>4.1.6.RELEASE</spring.version>
+        <cassandra.driver.version>3.1.0</cassandra.driver.version>
     </properties>
 
     <developers>
@@ -79,6 +80,21 @@
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
                 <version>2.5</version>
+            </dependency>
+            <dependency>
+                <groupId>com.datastax.cassandra</groupId>
+                <artifactId>cassandra-driver-core</artifactId>
+                <version>${cassandra.driver.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.datastax.cassandra</groupId>
+                <artifactId>cassandra-driver-mapping</artifactId>
+                <version>${cassandra.driver.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.datastax.cassandra</groupId>
+                <artifactId>cassandra-driver-extras</artifactId>
+                <version>${cassandra.driver.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.scala-lang</groupId>
