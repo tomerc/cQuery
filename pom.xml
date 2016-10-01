@@ -42,6 +42,16 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>com.cquery</groupId>
+                <artifactId>cquery-api</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.cquery</groupId>
+                <artifactId>cquery-core</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-core</artifactId>
                 <version>${spring.version}</version>
@@ -137,8 +147,6 @@
                 </includes>
             </resource>
         </resources>
-        <sourceDirectory>src/main/scala</sourceDirectory>
-        <testSourceDirectory>test/main/scala</testSourceDirectory>
         <pluginManagement>
             <plugins>
                 <plugin>
@@ -220,5 +228,6 @@
     </build>
     <modules>
         <module>cquery-api</module>
+        <module>cquery-core</module>
     </modules>
 </project>
