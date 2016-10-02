@@ -71,7 +71,6 @@
         <dependency>
             <groupId>com.websudos</groupId>
             <artifactId>phantom-dsl_2.10</artifactId>
-            <version>1.28.16</version>
         </dependency>
     </dependencies>
     <build>
