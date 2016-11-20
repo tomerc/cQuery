@@ -1,7 +1,9 @@
 package com.cquery.example.basics
 
 import org.scalatest.{BeforeAndAfterAll, FlatSpec}
+
 import scala.concurrent.Await
+import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
 
 /**
