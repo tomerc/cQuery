@@ -107,6 +107,11 @@
                 <version>${cassandra.driver.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.websudos</groupId>
+                <artifactId>phantom-dsl_2.10</artifactId>
+                <version>1.28.16</version>
+            </dependency>
+            <dependency>
                 <groupId>org.scala-lang</groupId>
                 <artifactId>scala-compiler</artifactId>
                 <version>${scala.version}</version>
